@@ -9,6 +9,12 @@
     "tagline": "追踪中文 KOL 与创作者动态的推送服务",
     "url": ""
   },
+  "miniprogram": {
+    "name": "希流推送",
+    "nameEn": "ipush",
+    "qr": "assets/ipush-qr.png",
+    "cta": "名录里的创作者更新,聚合摘要后推送给你 —— 微信扫码打开小程序"
+  },
   "repo": "https://github.com/wyouc-hope/xiliu-geo",
   "dataLicense": "CC BY 4.0",
   "lastUpdated": "2026-07-13"

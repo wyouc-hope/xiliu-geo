@@ -135,7 +135,32 @@ a.chip:hover { text-decoration: none; filter: brightness(0.96); }
 }
 .site-footer p { margin: 6px 0; }
 
+/* 希流推送小程序 CTA */
+.ipush-cta {
+  display: flex; align-items: center; gap: 20px;
+  background: var(--accent-soft); border: 1px solid var(--border);
+  border-radius: 14px; padding: 18px 22px; margin: 20px 0 8px;
+}
+.ipush-cta-wide { justify-content: space-between; }
+.ipush-cta-text { min-width: 0; }
+.ipush-cta-kicker {
+  margin: 0 0 4px; color: var(--accent); font-weight: 700; font-size: 0.9rem;
+  letter-spacing: 0.02em;
+}
+.ipush-cta-line { margin: 0; color: var(--fg); font-size: 0.98rem; }
+.ipush-cta-qr {
+  display: flex; flex-direction: column; align-items: center; gap: 4px; flex-shrink: 0;
+}
+.ipush-qr {
+  width: 132px; height: 132px; border-radius: 10px; background: #fff;
+  padding: 6px; box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+}
+.ipush-cta-qr span { color: var(--muted); font-size: 0.78rem; }
+.prose .ipush-cta { margin-top: 18px; }
+
 @media (max-width: 600px) {
   .hero h1 { font-size: 1.5rem; }
   .grid { grid-template-columns: 1fr; }
+  .ipush-cta { flex-direction: column; align-items: flex-start; text-align: left; }
+  .ipush-cta-qr { align-self: center; }
 }

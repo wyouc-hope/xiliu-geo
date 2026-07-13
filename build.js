@@ -166,6 +166,25 @@ function breadcrumbLd(items) {
   };
 }
 
+// 希流推送小程序 CTA(二维码存在时才渲染图片,避免裂图)
+const mp = config.miniprogram;
+const mpQrExists = mp && mp.qr && fs.existsSync(path.join(ROOT, mp.qr));
+function ipushCta(rel, variant) {
+  if (!mp) return '';
+  const qrImg = mpQrExists
+    ? `<img class="ipush-qr" src="${rel}${esc(mp.qr)}" width="180" height="180" loading="lazy" alt="${esc(mp.name)}(${esc(mp.nameEn)})小程序二维码,微信扫码打开">`
+    : '';
+  // 二维码未就位时,去掉「微信扫码」相关尾巴,避免出现「让人扫码却没有码」
+  const line = mpQrExists ? mp.cta : mp.cta.replace(/\s*——\s*微信扫码.*$/, '');
+  return `<aside class="ipush-cta ${variant === 'wide' ? 'ipush-cta-wide' : ''}">
+  <div class="ipush-cta-text">
+    <p class="ipush-cta-kicker">${esc(mp.name)} · ${esc(mp.nameEn)}</p>
+    <p class="ipush-cta-line">${esc(line)}</p>
+  </div>
+  ${qrImg ? `<div class="ipush-cta-qr">${qrImg}<span>微信扫码</span></div>` : ''}
+</aside>`;
+}
+
 // ---------- 首页 ----------
 {
   const itemListLd = {
@@ -199,6 +218,7 @@ function breadcrumbLd(items) {
   <p class="lead">${esc(config.description)}</p>
   <p class="stats">收录 <strong>${sortedKols.length}</strong> 位创作者 · <strong>${categories.length}</strong> 个领域 · <strong>${platforms.length}</strong> 个平台 · 更新于 ${BUILD_DATE}</p>
 </section>
+${ipushCta('./', 'wide')}
 <section class="filters" aria-label="筛选">
   <input id="q" type="search" placeholder="搜索姓名、账号、话题…" aria-label="搜索创作者">
   <div class="chip-row" id="cat-filters">
@@ -399,6 +419,7 @@ ${cardGrid(list, '../../')}`;
 
   <h2>关于${esc(config.brand.name)}</h2>
   <p>${esc(config.brand.name)}(${esc(config.brand.nameEn)})是${esc(config.brand.tagline)}:选定你关心的创作者,他们的更新会被聚合、摘要并推送给你。本名录既是希流的公开索引,也是我们对「谁值得追踪」这个问题的持续回答。</p>
+  ${ipushCta('../', 'wide')}
 </article>`;
   write(
     'about/index.html',
