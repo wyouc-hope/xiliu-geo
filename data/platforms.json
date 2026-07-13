@@ -1,14 +1,6 @@
 [
-  { "slug": "wechat", "name": "微信公众号" },
-  { "slug": "weibo", "name": "微博" },
-  { "slug": "bilibili", "name": "哔哩哔哩" },
   { "slug": "x", "name": "X (Twitter)" },
-  { "slug": "jike", "name": "即刻" },
-  { "slug": "xueqiu", "name": "雪球" },
-  { "slug": "zhihu", "name": "知乎" },
-  { "slug": "xiaohongshu", "name": "小红书" },
-  { "slug": "douyin", "name": "抖音" },
+  { "slug": "substack", "name": "Substack" },
   { "slug": "youtube", "name": "YouTube" },
-  { "slug": "podcast", "name": "播客" },
-  { "slug": "xigua", "name": "西瓜视频" }
+  { "slug": "podcast", "name": "播客" }
 ]

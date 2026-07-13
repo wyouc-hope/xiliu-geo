@@ -1,485 +1,383 @@
 [
   {
-    "slug": "li-mu",
-    "name": "李沐",
-    "alias": ["Mu Li", "跟李沐学AI"],
-    "title": "AI 科学家 /《动手学深度学习》作者之一",
+    "slug": "sama",
+    "name": "Sam Altman",
+    "alias": ["萨姆·奥尔特曼", "山姆·奥特曼"],
+    "title": "OpenAI 联合创始人兼 CEO",
     "categories": ["ai"],
     "platforms": [
-      { "platform": "bilibili", "handle": "跟李沐学AI" },
-      { "platform": "zhihu", "handle": "李沐" }
+      { "platform": "x", "handle": "@sama", "url": "https://x.com/sama" }
     ],
-    "topics": ["深度学习", "大模型", "论文精读", "机器学习教育"],
-    "bio": "深度学习框架 MXNet 与开源教材《动手学深度学习》(D2L)的作者之一,曾任亚马逊资深首席科学家,后参与创办大模型公司 Boson AI。B 站「跟李沐学AI」的论文精读系列,是许多中文学习者理解 Transformer、GPT 等经典工作的起点。",
-    "highlights": [
-      "《动手学深度学习》被全球多所高校用作教材",
-      "「论文精读」系列系统讲解深度学习经典论文"
-    ],
+    "topics": ["OpenAI", "ChatGPT", "AGI", "AI 行业趋势"],
+    "bio": "OpenAI 联合创始人兼 CEO,ChatGPT 背后的关键推手。X 是他发布产品预告、回应质疑与阐述 AGI 观点的主要渠道;国内没有公开账号,却是国内 AI 从业者每天必盯的信息源。",
+    "highlights": ["ChatGPT / GPT 系列的掌舵人", "产品与行业风向常由其一条推文引发"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "baoyu",
-    "name": "宝玉",
-    "alias": ["dotey", "宝玉xp"],
-    "title": "AI 资讯译介者 / 资深软件工程师",
+    "slug": "elonmusk",
+    "name": "Elon Musk",
+    "alias": ["埃隆·马斯克", "马斯克"],
+    "title": "特斯拉 / SpaceX / xAI 创始人,X 所有者",
     "categories": ["ai"],
     "platforms": [
-      { "platform": "x", "handle": "@dotey", "url": "https://x.com/dotey" },
-      { "platform": "weibo", "handle": "宝玉xp" }
+      { "platform": "x", "handle": "@elonmusk", "url": "https://x.com/elonmusk" }
     ],
-    "topics": ["AI 资讯翻译", "Prompt 工程", "AI 编程", "大模型应用"],
-    "bio": "资深软件工程师,长期在 X 与微博上高频翻译、解读一线 AI 论文、产品发布与行业访谈,是许多中文读者获取全球 AI 动态的重要信息源;同时持续分享 Prompt 工程与 AI 辅助编程的实践经验。",
-    "highlights": [
-      "高频、高质量的中文 AI 信息流",
-      "大量被广泛转载的 AI 论文与访谈译文"
-    ],
+    "topics": ["特斯拉", "SpaceX", "xAI / Grok", "科技与政治"],
+    "bio": "特斯拉、SpaceX、xAI 创始人,X(原 Twitter)所有者。发帖极其高频,话题横跨电动车、航天、AI、政治与个人生活;国内没有账号,但关注度常年居高,一条推文即可搅动全球舆论。",
+    "highlights": ["全球关注度最高的科技企业家之一", "xAI 与 Grok 使其成为 AI 竞赛的直接参与者"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "guizang",
-    "name": "歸藏",
-    "alias": ["guizang", "op7418"],
-    "title": "AI 产品与工作流研究者",
+    "slug": "karpathy",
+    "name": "Andrej Karpathy",
+    "alias": ["安德烈·卡帕西", "卡帕西"],
+    "title": "AI 研究者与教育者,前特斯拉 AI 总监",
     "categories": ["ai"],
     "platforms": [
-      { "platform": "x", "handle": "@op7418", "url": "https://x.com/op7418" },
-      { "platform": "jike", "handle": "歸藏" },
-      { "platform": "wechat", "handle": "歸藏的AI工具箱" }
+      { "platform": "x", "handle": "@karpathy", "url": "https://x.com/karpathy" }
     ],
-    "topics": ["AI 产品测评", "AI 绘画与视频", "设计工具", "工作流"],
-    "bio": "AI 产品与工作流研究者,持续测评 AI 绘画、视频生成与设计类工具,输出大量可以直接上手的教程与工作流,是中文 AIGC 工具圈的重要信息节点。",
-    "highlights": [
-      "系统化的 AIGC 工具测评与教程",
-      "活跃于即刻与 X 的 AI 产品第一手观察"
-    ],
+    "topics": ["深度学习", "大模型", "AI 教育", "从零构建"],
+    "bio": "OpenAI 创始成员、前特斯拉 AI 总监,深度学习领域最受欢迎的教育者之一。其「从零构建 GPT」等课程与技术随笔在国内 AI 学习者中被反复传阅,只在 X 与个人渠道更新。",
+    "highlights": ["「从零构建」系列是无数人入门大模型的起点", "对 AI 工程与趋势的判断被国内技术圈高度重视"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "kazik",
-    "name": "数字生命卡兹克",
-    "alias": ["卡兹克"],
-    "title": "AI 应用观察者 / 自媒体作者",
+    "slug": "ylecun",
+    "name": "Yann LeCun",
+    "alias": ["杨立昆", "杨乐昆"],
+    "title": "图灵奖得主,Meta 首席 AI 科学家",
     "categories": ["ai"],
     "platforms": [
-      { "platform": "wechat", "handle": "数字生命卡兹克" },
-      { "platform": "zhihu", "handle": "数字生命卡兹克" }
+      { "platform": "x", "handle": "@ylecun", "url": "https://x.com/ylecun" }
     ],
-    "topics": ["AIGC 应用", "AI 视频", "智能体", "行业观察"],
-    "bio": "聚焦 AI 应用层的内容作者,以新品发布后第一时间的深度实测和情绪浓度极高的长文风格著称,多篇关于 AI 视频与智能体的文章在中文互联网广泛传播。",
-    "highlights": [
-      "AI 新品深度实测长文",
-      "AI 视频与 AIGC 创作领域的持续记录者"
-    ],
+    "topics": ["深度学习", "卷积网络", "世界模型", "AI 路线之争"],
+    "bio": "图灵奖得主、卷积神经网络之父,Meta 首席 AI 科学家。常在 X 就 AI 技术路线(尤其对纯 LLM 路线的批评与「世界模型」的主张)激烈发声,国内学界与工程圈紧密跟读。",
+    "highlights": ["深度学习三巨头之一", "AI 路线争论中最鲜明的一方声音"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "cyber-chanxin",
-    "name": "赛博禅心",
-    "title": "大模型测评与行业观察者",
+    "slug": "demishassabis",
+    "name": "Demis Hassabis",
+    "alias": ["戴密斯·哈萨比斯", "哈萨比斯"],
+    "title": "Google DeepMind 联合创始人兼 CEO",
     "categories": ["ai"],
     "platforms": [
-      { "platform": "wechat", "handle": "赛博禅心" }
+      { "platform": "x", "handle": "@demishassabis", "url": "https://x.com/demishassabis" }
     ],
-    "topics": ["大模型测评", "AI 行业分析", "提示词技巧"],
-    "bio": "关注大模型与 AI 行业的公众号主理人,常以横向实测、提示词技巧与行业事件梳理的形式输出,行文风格直接,更新频率高。",
-    "highlights": [
-      "大模型横向对比实测",
-      "AI 行业热点事件的快速梳理"
-    ],
+    "topics": ["DeepMind", "AlphaFold", "科学 AI", "AGI"],
+    "bio": "Google DeepMind 联合创始人兼 CEO,2024 年因 AlphaFold 蛋白质结构预测获诺贝尔化学奖。X 是其分享科研突破与 AI 愿景的窗口,国内 AI 与科研群体高度关注。",
+    "highlights": ["AlphaFold / AlphaGo 背后的科学家", "诺贝尔化学奖得主"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "hyacinth",
-    "name": "海辛Hyacinth",
-    "alias": ["海辛"],
-    "title": "AI 艺术与动画创作者",
+    "slug": "ilyasut",
+    "name": "Ilya Sutskever",
+    "alias": ["伊利亚·苏茨克维", "Ilya"],
+    "title": "Safe Superintelligence 创始人,OpenAI 前首席科学家",
     "categories": ["ai"],
     "platforms": [
-      { "platform": "jike", "handle": "海辛Hyacinth" },
-      { "platform": "xiaohongshu", "handle": "海辛Hyacinth" }
+      { "platform": "x", "handle": "@ilyasut", "url": "https://x.com/ilyasut" }
     ],
-    "topics": ["AI 动画", "AIGC 艺术", "视觉创作工作流"],
-    "bio": "AI 艺术与动画创作者,持续分享用 AI 工具进行视觉与动画创作的完整工作流,是中文 AIGC 艺术创作社区中活跃的实践者与布道者。",
-    "highlights": [
-      "AI 动画创作工作流分享",
-      "AIGC 艺术创作的早期实践者"
-    ],
+    "topics": ["深度学习", "超级智能", "AI 安全", "大模型"],
+    "bio": "深度学习先驱,OpenAI 前首席科学家,现创办 Safe Superintelligence(SSI)。在 X 上发帖极少,但每一条都会被国内 AI 圈逐字解读,被视为理解前沿方向的重要信号。",
+    "highlights": ["AlexNet 与 OpenAI 核心技术奠基者", "「发帖稀少却字字千金」的代表"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "li-jigang",
-    "name": "李继刚",
-    "title": "Prompt 研究者",
+    "slug": "drjimfan",
+    "name": "Jim Fan",
+    "alias": ["范麟熙", "Jim 范"],
+    "title": "英伟达高级研究科学家,GEAR 实验室负责人",
     "categories": ["ai"],
     "platforms": [
-      { "platform": "jike", "handle": "李继刚" }
+      { "platform": "x", "handle": "@DrJimFan", "url": "https://x.com/DrJimFan" }
     ],
-    "topics": ["Prompt 工程", "结构化表达", "大模型使用方法"],
-    "bio": "Prompt 研究者,以「Lisp 伪代码」风格的结构化提示词在中文 AI 圈走红,长期在即刻分享提示词设计思路与对语言、思维方式的思考。",
-    "highlights": [
-      "「Lisp 风格」结构化提示词的代表性作者",
-      "多个在中文社区广泛流传的经典 Prompt"
-    ],
+    "topics": ["具身智能", "机器人", "AI Agent", "基础模型"],
+    "bio": "英伟达高级研究科学家、GEAR 实验室负责人,专注具身智能与机器人基础模型。华人背景、表达清晰,是国内理解前沿 Agent 与机器人研究的重要转述者,只在 X 与学术渠道活跃。",
+    "highlights": ["具身智能方向的高影响力研究者", "前沿论文的高质量解读者"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "yingshi-jufeng",
-    "name": "影视飓风",
-    "alias": ["Tim", "潘天鸿"],
-    "title": "影像科技团队 / B 站头部科技频道",
-    "categories": ["tech"],
+    "slug": "aravsrinivas",
+    "name": "Aravind Srinivas",
+    "alias": ["阿拉温德·斯里尼瓦斯"],
+    "title": "Perplexity 联合创始人兼 CEO",
+    "categories": ["ai"],
     "platforms": [
-      { "platform": "bilibili", "handle": "影视飓风" },
-      { "platform": "douyin", "handle": "影视飓风" }
+      { "platform": "x", "handle": "@AravSrinivas", "url": "https://x.com/AravSrinivas" }
     ],
-    "topics": ["摄影器材", "影像技术", "超高清制作", "科技评测"],
-    "bio": "由潘天鸿(Tim)创办的影像内容团队,内容覆盖摄影器材评测、影像技术科普与超高清制作,以工业级的制作水准成为 B 站头部科技频道,并运营多个矩阵账号。",
-    "highlights": [
-      "B 站头部影像科技频道",
-      "多支探索拍摄与画质极限的出圈作品"
-    ],
+    "topics": ["AI 搜索", "Perplexity", "大模型产品", "创业"],
+    "bio": "AI 搜索公司 Perplexity 联合创始人兼 CEO。频繁在 X 更新产品迭代、回应竞争与分享行业观点,是国内 AI 产品与创业圈紧盯的对象,国内无公开账号。",
+    "highlights": ["AI 搜索赛道的代表性创业者", "产品动态多经其本人 X 首发"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "zhihuijun",
-    "name": "稚晖君",
-    "alias": ["彭志辉"],
-    "title": "硬核硬件创作者 / 智元机器人创始人",
-    "categories": ["tech", "ai"],
+    "slug": "fchollet",
+    "name": "François Chollet",
+    "alias": ["弗朗索瓦·肖莱"],
+    "title": "Keras 作者,ARC 挑战赛发起人",
+    "categories": ["ai"],
     "platforms": [
-      { "platform": "bilibili", "handle": "稚晖君" },
-      { "platform": "weibo", "handle": "稚晖君" }
+      { "platform": "x", "handle": "@fchollet", "url": "https://x.com/fchollet" }
     ],
-    "topics": ["机器人", "嵌入式开发", "具身智能", "硬件 DIY"],
-    "bio": "本名彭志辉,「野生钢铁侠」式的硬核创作者,以自制机械臂、自动驾驶自行车等个人项目走红 B 站,后离开华为「天才少年」计划创立具身智能公司智元机器人。",
-    "highlights": [
-      "自动驾驶自行车、自制机械臂等硬核项目",
-      "从头部 UP 主到具身智能创业者的代表人物"
-    ],
+    "topics": ["深度学习", "Keras", "AGI 度量", "ARC"],
+    "bio": "深度学习框架 Keras 的作者,ARC 抽象推理挑战赛发起人,对「大模型是否等于通用智能」持鲜明的怀疑与度量视角。其观点在国内 AI 研究与思辨圈广受讨论。",
+    "highlights": ["Keras 之父", "ARC:衡量「真正智能」的公开基准"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "laoshi-tanxin",
-    "name": "老石谈芯",
-    "alias": ["老石"],
-    "title": "芯片与半导体科普作者",
-    "categories": ["tech"],
+    "slug": "naval",
+    "name": "Naval Ravikant",
+    "alias": ["纳瓦尔", "纳瓦尔·拉维坎特"],
+    "title": "AngelList 创始人,天使投资人与思想家",
+    "categories": ["ai"],
     "platforms": [
-      { "platform": "bilibili", "handle": "老石谈芯" },
-      { "platform": "youtube", "handle": "老石谈芯" }
+      { "platform": "x", "handle": "@naval", "url": "https://x.com/naval" }
     ],
-    "topics": ["芯片", "半导体产业", "计算硬件", "AI 芯片"],
-    "bio": "芯片行业从业者出身的科普作者,用一线从业视角讲解半导体产业格局与芯片技术原理,视频同步更新于 B 站与 YouTube,著有《了不起的芯片》。",
-    "highlights": [
-      "半导体产业与 AI 芯片的系统性科普",
-      "兼具从业深度与大众可读性的内容风格"
-    ],
+    "topics": ["创业", "财富与幸福", "判断力", "天使投资"],
+    "bio": "AngelList 创始人、硅谷知名天使投资人,以关于财富、幸福与独立判断的「推文串」闻名。这些内容被反复翻译进国内,结集而成的《纳瓦尔宝典》影响甚广;他只在 X 与播客发声。",
+    "highlights": ["《纳瓦尔宝典》原始思想来源", "「如何不靠运气致富」推文串的作者"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "hetongxue",
-    "name": "何同学",
-    "alias": ["老师好我叫何同学"],
-    "title": "科技视频创作者",
-    "categories": ["tech"],
+    "slug": "paulg",
+    "name": "Paul Graham",
+    "alias": ["保罗·格雷厄姆", "PG"],
+    "title": "Y Combinator 创始人,硅谷创业教父",
+    "categories": ["ai"],
     "platforms": [
-      { "platform": "bilibili", "handle": "老师好我叫何同学" },
-      { "platform": "weibo", "handle": "老师好我叫何同学" }
+      { "platform": "x", "handle": "@paulg", "url": "https://x.com/paulg" }
     ],
-    "topics": ["科技视频", "数码产品", "创意制作"],
-    "bio": "科技视频创作者,以《有多快?5G 在日常使用中的真实体验》出圈,作品以强烈的视觉表达与叙事能力见长,是中文科技内容视频化浪潮中的代表人物。",
-    "highlights": [
-      "5G 体验视频成为现象级传播案例",
-      "多支融合创意装置与产品叙事的代表作"
-    ],
+    "topics": ["创业", "随笔", "创投", "写作与思考"],
+    "bio": "Y Combinator 联合创始人,被称为硅谷创业教父。其关于创业、写作与人生的长篇随笔长期被国内创业者奉为必读,只在 X 与个人网站(paulgraham.com)更新,国内无账号。",
+    "highlights": ["YC 与「创业黑话」的塑造者", "随笔被国内创业圈系统翻译传播"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "liyongle",
-    "name": "李永乐老师",
-    "alias": ["李永乐"],
-    "title": "物理教师 / 科学科普作者",
-    "categories": ["tech"],
+    "slug": "gdb",
+    "name": "Greg Brockman",
+    "alias": ["格雷格·布罗克曼"],
+    "title": "OpenAI 联合创始人兼总裁",
+    "categories": ["ai"],
     "platforms": [
-      { "platform": "xigua", "handle": "李永乐老师" },
-      { "platform": "bilibili", "handle": "李永乐老师官方" }
+      { "platform": "x", "handle": "@gdb", "url": "https://x.com/gdb" }
     ],
-    "topics": ["物理", "数学", "科学科普", "热点原理解读"],
-    "bio": "人大附中物理教师,用一块黑板讲清科学、金融与社会热点背后的原理,从奥数与物理竞赛教学走向大众科普,是中文互联网最具影响力的科普教师之一。",
-    "highlights": [
-      "黑板讲解式科普的代表人物",
-      "覆盖物理、数学、金融等广泛主题的科普体系"
-    ],
+    "topics": ["OpenAI", "AI 工程", "大模型", "算力"],
+    "bio": "OpenAI 联合创始人兼总裁,偏工程与执行视角。常在 X 分享 OpenAI 的技术进展、发布节奏与幕后细节,是国内观察 OpenAI 动向的重要窗口。",
+    "highlights": ["OpenAI 工程与执行的核心人物", "模型发布节点的第一手信息源"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "lanxi",
-    "name": "阑夕",
-    "title": "科技专栏作者",
-    "categories": ["tech"],
+    "slug": "clementdelangue",
+    "name": "Clément Delangue",
+    "alias": ["克莱门特·德朗格"],
+    "title": "Hugging Face 联合创始人兼 CEO",
+    "categories": ["ai"],
     "platforms": [
-      { "platform": "weibo", "handle": "阑夕" },
-      { "platform": "wechat", "handle": "阑夕" }
+      { "platform": "x", "handle": "@ClementDelangue", "url": "https://x.com/ClementDelangue" }
     ],
-    "topics": ["互联网产业", "内容行业", "公司战略", "科技评论"],
-    "bio": "科技专栏作者,长期评论互联网产业、内容行业与公司战略,微博是其主要输出阵地,评论以信息密度高、判断鲜明著称。",
-    "highlights": [
-      "十余年互联网行业评论写作",
-      "科技行业热点事件的高频评论者"
-    ],
+    "topics": ["开源 AI", "Hugging Face", "模型生态", "社区"],
+    "bio": "开源 AI 社区 Hugging Face 联合创始人兼 CEO。在 X 上持续为开源模型生态发声、分享平台与行业数据,是国内开源 AI 从业者关注的关键节点。",
+    "highlights": ["全球最大开源模型社区的掌舵人", "开源 vs 闭源议题的代表声音"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "panluan",
-    "name": "潘乱",
-    "title": "「乱翻书」主理人",
-    "categories": ["tech", "business"],
+    "slug": "vitalikbuterin",
+    "name": "Vitalik Buterin",
+    "alias": ["V 神", "维塔利克·布特林"],
+    "title": "以太坊联合创始人",
+    "categories": ["crypto"],
     "platforms": [
-      { "platform": "podcast", "handle": "乱翻书" },
-      { "platform": "wechat", "handle": "乱翻书" }
+      { "platform": "x", "handle": "@VitalikButerin", "url": "https://x.com/VitalikButerin" }
     ],
-    "topics": ["互联网公司研究", "组织与战略", "行业访谈"],
-    "bio": "「乱翻书」主理人,以《腾讯没有梦想》一文进入公众视野,此后持续通过长文与播客访谈剖析互联网公司的组织、产品与战略,访谈嘉宾多为一线从业者与创始人。",
-    "highlights": [
-      "《腾讯没有梦想》作者",
-      "「乱翻书」播客:互联网行业深度访谈"
-    ],
+    "topics": ["以太坊", "区块链", "公共物品", "去中心化"],
+    "bio": "以太坊联合创始人,加密世界最具思想深度的人物之一。精通中文、时常直接用中文发推,国内加密社区几乎只能通过 X 追踪他关于扩容、治理与公共物品的最新思考。",
+    "highlights": ["以太坊的精神领袖", "会用中文与华语社区直接交流"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "fenng",
-    "name": "冯大辉",
-    "alias": ["Fenng"],
-    "title": "无码科技创始人 / 「小道消息」作者",
-    "categories": ["tech"],
+    "slug": "cz-binance",
+    "name": "Changpeng Zhao (CZ)",
+    "alias": ["赵长鹏", "CZ"],
+    "title": "币安创始人",
+    "categories": ["crypto"],
     "platforms": [
-      { "platform": "wechat", "handle": "小道消息" },
-      { "platform": "weibo", "handle": "Fenng" }
+      { "platform": "x", "handle": "@cz_binance", "url": "https://x.com/cz_binance" }
     ],
-    "topics": ["互联网观察", "技术管理", "产品思考"],
-    "bio": "无码科技创始人,前丁香园 CTO,网名 Fenng。公众号「小道消息」是中文互联网早期最具影响力的科技类个人账号之一,长期输出行业观察与产品思考。",
-    "highlights": [
-      "「小道消息」:早期公众号生态的标志性账号",
-      "数据库与技术架构领域的资深从业背景"
-    ],
+    "topics": ["币安", "加密交易所", "行业合规", "创业"],
+    "bio": "全球最大加密交易所币安的创始人。国内没有公开社媒账号,X 是其对外发声的主渠道,更新与表态被华语加密用户高度关注,一句话常影响市场情绪。",
+    "highlights": ["币安创始人", "华语加密圈关注度最高的人物之一"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "caoz",
-    "name": "曹政",
-    "alias": ["caoz"],
-    "title": "「caoz 的梦呓」作者",
-    "categories": ["tech", "business"],
+    "slug": "justinsun",
+    "name": "Justin Sun",
+    "alias": ["孙宇晨"],
+    "title": "波场 TRON 创始人",
+    "categories": ["crypto"],
     "platforms": [
-      { "platform": "wechat", "handle": "caoz的梦呓" }
+      { "platform": "x", "handle": "@justinsuntron", "url": "https://x.com/justinsuntron" }
     ],
-    "topics": ["流量与增长", "数据分析", "职业发展", "出海"],
-    "bio": "互联网数据与流量领域的资深从业者,《你凭什么做好互联网》作者。公众号「caoz 的梦呓」以理性、反直觉的视角拆解流量、商业与职业话题,读者以从业者为主。",
-    "highlights": [
-      "《你凭什么做好互联网》作者",
-      "流量与商业分析领域的长期写作者"
-    ],
+    "topics": ["TRON", "稳定币", "加密营销", "行业事件"],
+    "bio": "波场 TRON 创始人,营销风格极其鲜明。几乎所有动态与话题都首发于 X,国内加密用户主要通过其 X 账号跟进其项目与行业动作。",
+    "highlights": ["TRON 生态创始人", "加密行业最擅长制造话题的人物之一"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "chijianqiang",
-    "name": "池建强",
-    "title": "「MacTalk」主理人 / 墨问西东创始人",
-    "categories": ["tech"],
+    "slug": "cryptohayes",
+    "name": "Arthur Hayes",
+    "alias": ["亚瑟·海耶斯"],
+    "title": "BitMEX 联合创始人,宏观加密作者",
+    "categories": ["crypto", "finance"],
     "platforms": [
-      { "platform": "wechat", "handle": "MacTalk-池建强" }
+      { "platform": "x", "handle": "@CryptoHayes", "url": "https://x.com/CryptoHayes" },
+      { "platform": "substack", "handle": "Arthur Hayes' Blog" }
     ],
-    "topics": ["技术人成长", "产品思考", "写作与效率工具"],
-    "bio": "「MacTalk」主理人,墨问西东创始人,曾任极客邦科技总裁,参与打造极客时间。写作聚焦技术人成长、产品思考与效率工具,风格温和而持续。",
-    "highlights": [
-      "「MacTalk」十余年持续写作",
-      "从技术管理者到内容产品创业者的双重视角"
-    ],
+    "topics": ["加密宏观", "流动性", "交易策略", "美元体系"],
+    "bio": "加密衍生品交易所 BitMEX 联合创始人,以「宏观 + 加密」的长篇随笔著称。他把美元流动性、央行政策与加密行情串成一套框架,文章在国内加密圈被广泛翻译与讨论。",
+    "highlights": ["BitMEX 联合创始人", "加密宏观长文的代表作者"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "weixi",
-    "name": "卫夕",
-    "title": "「卫夕指北」作者",
-    "categories": ["tech", "business"],
+    "slug": "balajis",
+    "name": "Balaji Srinivasan",
+    "alias": ["巴拉吉", "巴拉吉·斯里尼瓦桑"],
+    "title": "前 Coinbase CTO,《网络国家》作者",
+    "categories": ["crypto"],
     "platforms": [
-      { "platform": "wechat", "handle": "卫夕指北" }
+      { "platform": "x", "handle": "@balajis", "url": "https://x.com/balajis" }
     ],
-    "topics": ["互联网广告", "平台经济", "科技商业分析"],
-    "bio": "广告产品经理出身的科技作者,「卫夕指北」以万字长文著称,系统拆解互联网广告、平台经济与科技公司的商业逻辑,更新不快但篇篇扎实。",
-    "highlights": [
-      "互联网广告领域的深度长文写作者",
-      "多篇被行业广泛引用的平台商业分析"
-    ],
+    "topics": ["网络国家", "加密与科技", "宏观趋势", "去中心化"],
+    "bio": "前 Coinbase CTO、a16z 合伙人,「网络国家(Network State)」概念的提出者。X 上高信息密度的技术与宏观长推,常被国内科技与加密圈引用与翻译。",
+    "highlights": ["《The Network State》作者", "高密度宏观 + 技术论述的代表"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "duanyongping",
-    "name": "段永平",
-    "alias": ["大道无形我有型"],
-    "title": "企业家 / 价值投资者",
-    "categories": ["finance", "business"],
+    "slug": "brian-armstrong",
+    "name": "Brian Armstrong",
+    "alias": ["布莱恩·阿姆斯特朗"],
+    "title": "Coinbase 联合创始人兼 CEO",
+    "categories": ["crypto"],
     "platforms": [
-      { "platform": "xueqiu", "handle": "大道无形我有型" }
+      { "platform": "x", "handle": "@brian_armstrong", "url": "https://x.com/brian_armstrong" }
     ],
-    "topics": ["价值投资", "商业本质", "企业文化"],
-    "bio": "步步高创始人,OPPO 与 vivo 背后的重要推动者,长期践行价值投资。在雪球以「大道无形我有型」持续回答网友提问,内容围绕投资常识、商业本质与「本分」的企业文化。",
-    "highlights": [
-      "步步高、OPPO、vivo 背后的企业家",
-      "雪球最具影响力的投资类账号之一"
-    ],
+    "topics": ["Coinbase", "加密合规", "行业政策", "创业"],
+    "bio": "美国最大合规加密交易所 Coinbase 联合创始人兼 CEO。行业政策立场、产品动态与监管博弈多经 X 发布,是国内观察美国加密监管走向的重要窗口。",
+    "highlights": ["Coinbase 创始人", "加密行业与监管对话的代表声音"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "fangsanwen",
-    "name": "方三文",
-    "alias": ["不明真相的群众"],
-    "title": "雪球创始人",
+    "slug": "cobie",
+    "name": "Cobie",
+    "alias": ["Jordan Fish"],
+    "title": "加密评论者,UpOnly 播客主持",
+    "categories": ["crypto"],
+    "platforms": [
+      { "platform": "x", "handle": "@cobie", "url": "https://x.com/cobie" }
+    ],
+    "topics": ["加密市场", "行业观察", "交易情绪", "播客"],
+    "bio": "加密领域最具影响力的评论者与播客主持之一(UpOnly)。以犀利、冷幽默的市场评论著称,X 上的发言常被视为加密社区的情绪风向标,国内加密玩家广泛跟读。",
+    "highlights": ["UpOnly 播客主持", "加密推特的情绪风向标之一"],
+    "addedAt": "2026-07-13"
+  },
+  {
+    "slug": "michaeljburry",
+    "name": "Michael Burry",
+    "alias": ["迈克尔·伯里", "大空头原型"],
+    "title": "Scion 资产管理创始人,《大空头》原型",
     "categories": ["finance"],
     "platforms": [
-      { "platform": "xueqiu", "handle": "不明真相的群众" }
+      { "platform": "x", "handle": "@michaeljburry", "url": "https://x.com/michaeljburry" },
+      { "platform": "substack", "handle": "Cassandra Unchained" }
     ],
-    "topics": ["投资认知", "公司分析", "投资者行为"],
-    "bio": "雪球创始人、董事长,网名「不明真相的群众」,著有《您厉害,您赚得多》。以短评与访谈的形式讨论投资认知与投资者行为,风格克制、常带反问。",
-    "highlights": [
-      "雪球社区创始人",
-      "《您厉害,您赚得多》作者"
-    ],
+    "topics": ["价值投资", "做空", "泡沫与风险", "宏观"],
+    "bio": "因精准预言 2008 次贷危机、成为电影《大空头》原型而广为人知。其 X 账号「Cassandra Unchained」常发出市场警示后又删帖,一举一动都被国内投资者高度追踪与截图转发。",
+    "highlights": ["《大空头》主角原型", "「发帖即删」却被全网记录的风险预言者"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "danbin",
-    "name": "但斌",
-    "title": "东方港湾董事长",
+    "slug": "cathiedwood",
+    "name": "Cathie Wood",
+    "alias": ["木头姐", "凯茜·伍德"],
+    "title": "ARK Invest 创始人兼 CEO",
     "categories": ["finance"],
     "platforms": [
-      { "platform": "weibo", "handle": "但斌" },
-      { "platform": "xueqiu", "handle": "但斌" }
+      { "platform": "x", "handle": "@CathieDWood", "url": "https://x.com/CathieDWood" }
     ],
-    "topics": ["价值投资", "全球科技股", "长期主义"],
-    "bio": "东方港湾投资董事长,《时间的玫瑰》作者,长期倡导价值投资与长期主义,近年重仓全球科技与 AI 主题,微博更新频繁,观点常引发市场讨论。",
-    "highlights": [
-      "《时间的玫瑰》作者",
-      "微博最活跃的公募/私募投资人之一"
-    ],
+    "topics": ["颠覆式创新", "成长股", "特斯拉", "AI 与科技投资"],
+    "bio": "ARK Invest 创始人兼 CEO,颠覆式创新投资的代表人物,人称「木头姐」。其重仓逻辑与市场判断多经 X 与 ARK 渠道发布,国内成长股与科技投资者密切关注。",
+    "highlights": ["颠覆式创新投资的旗帜人物", "国内科技成长股投资者的重点跟踪对象"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "honghao",
-    "name": "洪灝",
-    "alias": ["Hao Hong"],
-    "title": "思睿集团合伙人兼首席经济学家",
+    "slug": "nntaleb",
+    "name": "Nassim Nicholas Taleb",
+    "alias": ["纳西姆·塔勒布", "塔勒布"],
+    "title": "《黑天鹅》《反脆弱》作者",
     "categories": ["finance"],
     "platforms": [
-      { "platform": "x", "handle": "@HAOHONG_CFA", "url": "https://x.com/HAOHONG_CFA" },
-      { "platform": "weibo", "handle": "洪灝" }
+      { "platform": "x", "handle": "@nntaleb", "url": "https://x.com/nntaleb" }
     ],
-    "topics": ["宏观经济", "市场策略", "周期研究"],
-    "bio": "思睿集团合伙人兼首席经济学家,前交银国际研究部主管,以周期研究与市场策略报告知名,中英文双语输出,多次做出被市场记住的关键判断。",
-    "highlights": [
-      "《预测:经济、周期与市场泡沫》作者",
-      "中英文双语的宏观策略输出"
-    ],
+    "topics": ["风险", "不确定性", "反脆弱", "概率思维"],
+    "bio": "《黑天鹅》《反脆弱》《非对称风险》作者,风险与不确定性思想的代表人物。在 X 上风格犀利、好辩,其关于尾部风险与概率思维的观点在国内影响深远。",
+    "highlights": ["「黑天鹅」「反脆弱」概念的提出者", "X 上最具战斗性的思想者之一"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "fupeng",
-    "name": "付鹏",
-    "title": "「付鹏的财经世界」主理人 / 宏观研究者",
+    "slug": "realjimchanos",
+    "name": "Jim Chanos",
+    "alias": ["吉姆·查诺斯"],
+    "title": "著名做空者,Kynikos 创始人",
     "categories": ["finance"],
     "platforms": [
-      { "platform": "wechat", "handle": "付鹏的财经世界" }
+      { "platform": "x", "handle": "@RealJimChanos", "url": "https://x.com/RealJimChanos" }
     ],
-    "topics": ["全球宏观", "大宗商品", "利率与汇率"],
-    "bio": "「付鹏的财经世界」主理人,长期从事全球宏观与大宗商品交易研究,以框架化的宏观逻辑分析知名,演讲与访谈内容常在财经圈广泛传播。",
-    "highlights": [
-      "全球宏观交易研究背景",
-      "多场被广泛传播的宏观主题演讲"
-    ],
+    "topics": ["做空", "会计舞弊", "泡沫识别", "宏观风险"],
+    "bio": "因做空安然一战成名的著名空头,长期以怀疑与风险视角审视市场热点。国内投资圈关注其对高估值与叙事泡沫的判断,发声集中于 X。",
+    "highlights": ["做空安然的经典案例缔造者", "长期看空叙事的代表声音"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "tangchao",
-    "name": "唐朝",
-    "alias": ["唐书房"],
-    "title": "「唐书房」主理人 / 财报分析作者",
+    "slug": "elerianm",
+    "name": "Mohamed El-Erian",
+    "alias": ["穆罕默德·埃里安"],
+    "title": "安联首席经济顾问,前 PIMCO CEO",
     "categories": ["finance"],
     "platforms": [
-      { "platform": "wechat", "handle": "唐书房" }
+      { "platform": "x", "handle": "@elerianm", "url": "https://x.com/elerianm" }
     ],
-    "topics": ["财报分析", "价值投资", "公司研究"],
-    "bio": "「唐书房」主理人,著有《手把手教你读财报》《价值投资实战手册》,以陪读式的长文讲解财报分析与价值投资方法,拥有一批高粘性的长期读者。",
-    "highlights": [
-      "《手把手教你读财报》作者",
-      "中文价值投资圈的代表性写作者之一"
-    ],
+    "topics": ["宏观经济", "央行政策", "债券市场", "全球市场"],
+    "bio": "著名经济学家,安联集团首席经济顾问,前 PIMCO CEO,剑桥皇后学院院长。其关于美联储政策、通胀与全球市场的评论被视为权威声音,国内宏观读者广泛引用。",
+    "highlights": ["「新常态」概念的推广者", "央行政策评论的权威声音"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "liurun",
-    "name": "刘润",
-    "title": "润米咨询创始人 / 商业顾问",
-    "categories": ["business"],
+    "slug": "lynalden",
+    "name": "Lyn Alden",
+    "alias": ["林·奥尔登"],
+    "title": "独立宏观研究者",
+    "categories": ["finance"],
     "platforms": [
-      { "platform": "wechat", "handle": "刘润" },
-      { "platform": "douyin", "handle": "刘润" }
+      { "platform": "x", "handle": "@LynAldenContact", "url": "https://x.com/LynAldenContact" },
+      { "platform": "substack", "handle": "Lyn Alden Newsletter" }
     ],
-    "topics": ["商业模式", "管理方法", "商业趋势"],
-    "bio": "润米咨询创始人,前微软战略合作总监,《5 分钟商学院》主理人,每年举办「进化的力量」年度演讲。公众号「刘润」是中文头部商业类账号之一,擅长把商业概念讲得通俗易懂。",
-    "highlights": [
-      "《5 分钟商学院》与「进化的力量」年度演讲",
-      "中文头部商业类公众号"
-    ],
+    "topics": ["货币体系", "流动性", "宏观框架", "比特币"],
+    "bio": "独立宏观研究者,以清晰、体系化的货币与流动性框架著称,著有《Broken Money》。其宏观分析在国内宏观与加密读者中广泛流传,内容主要经 X 与个人通讯发布。",
+    "highlights": ["《Broken Money》作者", "把复杂货币体系讲清楚的代表研究者"],
     "addedAt": "2026-07-13"
   },
   {
-    "slug": "banfo",
-    "name": "半佛仙人",
-    "title": "财经商业自媒体作者",
-    "categories": ["business", "finance"],
+    "slug": "peterschiff",
+    "name": "Peter Schiff",
+    "alias": ["彼得·希夫"],
+    "title": "Euro Pacific 资本创始人,黄金多头",
+    "categories": ["finance"],
     "platforms": [
-      { "platform": "wechat", "handle": "半佛仙人" },
-      { "platform": "bilibili", "handle": "硬核的半佛仙人" }
+      { "platform": "x", "handle": "@PeterSchiff", "url": "https://x.com/PeterSchiff" }
     ],
-    "topics": ["商业模式拆解", "消费陷阱", "行业黑话"],
-    "bio": "财经商业自媒体作者,风控从业背景,以段子化的表达拆解商业模式、消费陷阱与行业潜规则,文章与视频在公众号、B 站双线更新。",
-    "highlights": [
-      "商业拆解 + 段子文风的代表作者",
-      "公众号与 B 站双平台头部账号"
-    ],
-    "addedAt": "2026-07-13"
-  },
-  {
-    "slug": "zhangxiaojun",
-    "name": "张小珺",
-    "title": "「张小珺商业访谈录」主理人",
-    "categories": ["business", "ai"],
-    "platforms": [
-      { "platform": "podcast", "handle": "张小珺商业访谈录(小宇宙)" }
-    ],
-    "topics": ["AI 行业访谈", "科技公司研究", "创始人对话"],
-    "bio": "科技商业记者出身,「张小珺商业访谈录」主理人,近年密集对话中国 AI 与科技领域的创始人、科学家与投资人,是观察中国 AI 行业的重要一手信源。",
-    "highlights": [
-      "中国 AI 行业最密集的深度访谈记录者之一",
-      "多期访谈成为行业必听内容"
-    ],
-    "addedAt": "2026-07-13"
-  },
-  {
-    "slug": "qukai",
-    "name": "曲凯",
-    "title": "「42章经」创始人",
-    "categories": ["business", "ai"],
-    "platforms": [
-      { "platform": "podcast", "handle": "42章经(小宇宙)" },
-      { "platform": "wechat", "handle": "42章经" }
-    ],
-    "topics": ["一级市场", "AI 创业", "职业成长"],
-    "bio": "「42章经」创始人,前投资人,通过播客与文章讨论一级市场、AI 创业与个人成长,同时运营面向创业者与从业者的社区,是创投内容领域的长期玩家。",
-    "highlights": [
-      "「42章经」播客与社区",
-      "创投与 AI 创业话题的持续输出者"
-    ],
+    "topics": ["黄金", "美元与通胀", "奥地利学派", "货币政策"],
+    "bio": "奥地利学派投资人,长期的黄金多头与美元/债务问题的标志性批评者。观点鲜明、立场一贯,是国内关注贵金属与货币政策议题读者熟悉的声音,发声集中于 X。",
+    "highlights": ["黄金多头的标志性人物", "美元与债务议题最执着的批评者之一"],
     "addedAt": "2026-07-13"
   }
 ]

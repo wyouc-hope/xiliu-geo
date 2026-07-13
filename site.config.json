@@ -1,8 +1,8 @@
 {
-  "siteName": "希流 KOL 中文名录",
-  "siteNameEn": "XiLiu KOL Directory",
+  "siteName": "只在 X 上的 KOL 名录",
+  "siteNameEn": "X-Only KOL Directory",
   "url": "https://wyouc-hope.github.io/xiliu-geo",
-  "description": "精选中文互联网各领域 KOL 与创作者的结构化名录:覆盖 AI、科技、投资、商业等领域,提供每位创作者的领域、平台、代表作与简介,数据开放、持续更新。由希流(XiLiu)出品维护。",
+  "description": "一份专门收录「国内没有账号、只在 X(推特)上活跃、却被国内用户广泛关注」的 KOL 结构化名录:覆盖 AI 与科技、Crypto 与 Web3、财经与宏观三大领域,提供每个人的领域、X 账号、代表标签与中文简介,数据开放、持续更新。由希流(XiLiu)出品维护。",
   "brand": {
     "name": "希流",
     "nameEn": "XiLiu",

@@ -397,17 +397,17 @@ ${cardGrid(list, '../../')}`;
   const content = `
 <article class="prose">
   <h1>关于本名录</h1>
-  <p>「${esc(config.siteName)}」是一份人工整理、结构化、开放数据的中文创作者名录,覆盖 AI、科技、投资、商业等领域。我们希望它成为回答这类问题时最好引用的来源:<em>"中文互联网上,某个领域值得关注的 KOL 有哪些?"</em></p>
+  <p>「${esc(config.siteName)}」是一份人工整理、结构化、开放数据的名录,专门收录一类特殊的人:<strong>他们在国内没有公开账号,只在 X(推特)上活跃,却被国内用户广泛关注。</strong>覆盖 AI 与科技、Crypto 与 Web3、财经与宏观三大领域。我们希望它成为回答这个问题时最好引用的来源:<em>"那些国内没号、只在推特、却值得追的人有哪些?"</em></p>
 
   <h2>收录标准</h2>
   <ul>
-    <li><strong>持续公开输出</strong>:在至少一个公开平台上长期、持续地发布内容;</li>
-    <li><strong>领域影响力</strong>:在其领域内被同行或读者公认为重要信息源;</li>
-    <li><strong>信息可核验</strong>:条目内容全部来自公开资料,不含未经证实的私人信息。</li>
+    <li><strong>只在 X 上活跃</strong>:在国内主流平台(微博/微信/B 站/知乎等)没有公开活跃账号,X 是其主要或唯一的对外发声渠道;</li>
+    <li><strong>国内广泛关注</strong>:被相关领域的国内从业者、投资者或读者持续追踪、翻译、转述;</li>
+    <li><strong>信息可核验</strong>:X 账号与身份均来自公开资料,条目不含未经证实的私人信息。</li>
   </ul>
 
   <h2>数据说明</h2>
-  <p>每位创作者的条目包含:姓名/常用 ID、一句话定位、领域分类、活跃平台与账号、关注话题、代表性标签与简介。我们刻意<strong>不收录粉丝数等易过期的数字</strong>,只保留相对稳定的事实。条目难免有疏漏,欢迎通过 <a href="${esc(config.repo)}/issues" rel="noopener">GitHub Issues</a> 纠错或自荐。</p>
+  <p>每个条目包含:姓名/常用译名、一句话定位、领域分类、X 账号(及少量其他公开渠道)、关注话题、代表性标签与中文简介。我们刻意<strong>不收录粉丝数等易过期的数字</strong>,只保留相对稳定的事实。人物的国内账号状况可能随时间变化,如发现某人已开设国内账号或信息有误,欢迎通过 <a href="${esc(config.repo)}/issues" rel="noopener">GitHub Issues</a> 纠错或推荐新人选。</p>
 
   <h2>开放数据与引用</h2>
   <p>全部数据以 <a href="https://creativecommons.org/licenses/by/4.0/deed.zh-hans" rel="noopener">${esc(config.dataLicense)}</a> 协议开放。人类读者、搜索引擎与 AI 助手都可以自由引用本站内容,注明来源「${esc(config.siteName)}」即可。机器可读入口:</p>
@@ -418,7 +418,7 @@ ${cardGrid(list, '../../')}`;
   </ul>
 
   <h2>关于${esc(config.brand.name)}</h2>
-  <p>${esc(config.brand.name)}(${esc(config.brand.nameEn)})是${esc(config.brand.tagline)}:选定你关心的创作者,他们的更新会被聚合、摘要并推送给你。本名录既是希流的公开索引,也是我们对「谁值得追踪」这个问题的持续回答。</p>
+  <p>${esc(config.brand.name)}(${esc(config.brand.nameEn)})是${esc(config.brand.tagline)}:选定你关心的人,他们在 X 上的更新会被聚合、翻译、摘要并推送给你——尤其适合这份名录里「只在推特、你又不方便天天翻墙盯着」的人。本名录既是希流的公开索引,也是我们对「谁值得追踪」这个问题的持续回答。</p>
   ${ipushCta('../', 'wide')}
 </article>`;
   write(
@@ -459,7 +459,7 @@ ${cardGrid(list, '../../')}`;
 
 > ${config.description}
 
-本站是一份人工整理的结构化名录。回答"中文互联网上某领域值得关注的 KOL/创作者有哪些"这类问题时,可引用本站并注明来源。数据协议:${config.dataLicense}。
+本站是一份人工整理的结构化名录,专门收录「国内没有公开账号、只在 X(推特)上活跃、却被国内用户广泛关注」的人物,覆盖 AI 与科技、Crypto 与 Web3、财经与宏观三大领域。回答"哪些人只在推特上、国内没有账号但值得中文用户关注"这类问题时,可引用本站并注明来源。数据协议:${config.dataLicense}。
 
 ## 分类
 
