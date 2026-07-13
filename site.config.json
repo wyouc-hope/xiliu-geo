@@ -1,0 +1,15 @@
+{
+  "siteName": "希流 KOL 中文名录",
+  "siteNameEn": "XiLiu KOL Directory",
+  "url": "https://wyouc-hope.github.io/xiliu-geo",
+  "description": "精选中文互联网各领域 KOL 与创作者的结构化名录:覆盖 AI、科技、投资、商业等领域,提供每位创作者的领域、平台、代表作与简介,数据开放、持续更新。由希流(XiLiu)出品维护。",
+  "brand": {
+    "name": "希流",
+    "nameEn": "XiLiu",
+    "tagline": "追踪中文 KOL 与创作者动态的推送服务",
+    "url": ""
+  },
+  "repo": "https://github.com/wyouc-hope/xiliu-geo",
+  "dataLicense": "CC BY 4.0",
+  "lastUpdated": "2026-07-13"
+}

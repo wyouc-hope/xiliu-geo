@@ -1,0 +1,8 @@
+{
+  "name": "xiliu-kol-directory",
+  "private": true,
+  "description": "希流 KOL 中文名录 — 结构化、开放数据的中文创作者名录(零依赖静态站)",
+  "scripts": {
+    "build": "node build.js"
+  }
+}

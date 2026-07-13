@@ -1,0 +1,141 @@
+/* 希流 KOL 中文名录 —— 轻量、无外部依赖、适配深浅色 */
+:root {
+  --bg: #faf9f7;
+  --fg: #1f2328;
+  --muted: #6a7076;
+  --card-bg: #ffffff;
+  --border: #e4e2dd;
+  --accent: #0f6b5c;
+  --accent-soft: #e3f0ed;
+  --chip-bg: #f0efec;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14161a;
+    --fg: #e7e9ec;
+    --muted: #9aa1a9;
+    --card-bg: #1d2026;
+    --border: #2e323a;
+    --accent: #4fbfa8;
+    --accent-soft: #1d332e;
+    --chip-bg: #262a31;
+  }
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", "Noto Sans CJK SC", "Segoe UI", sans-serif;
+  line-height: 1.7;
+  font-size: 16px;
+}
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1, h2, h3 { line-height: 1.35; }
+
+/* header */
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--card-bg);
+  position: sticky; top: 0; z-index: 10;
+}
+.site-header .wrap {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; padding-top: 12px; padding-bottom: 12px; flex-wrap: wrap;
+}
+.logo { font-weight: 700; font-size: 1.05rem; color: var(--fg); }
+.site-header nav { display: flex; gap: 18px; font-size: 0.95rem; }
+
+/* hero */
+.hero { padding: 40px 0 8px; }
+.hero h1 { font-size: 1.9rem; margin: 0 0 10px; }
+.lead { color: var(--muted); max-width: 46em; margin: 0 0 10px; }
+.stats { color: var(--muted); font-size: 0.9rem; }
+.stats strong { color: var(--fg); }
+
+/* filters */
+.filters { margin: 12px 0 8px; }
+#q {
+  width: 100%; max-width: 420px; padding: 10px 14px;
+  border: 1px solid var(--border); border-radius: 10px;
+  background: var(--card-bg); color: var(--fg); font-size: 0.95rem;
+}
+#q:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: transparent; }
+.chip-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+
+/* chips */
+.chip {
+  display: inline-block; padding: 2px 10px; border-radius: 999px;
+  background: var(--chip-bg); color: var(--muted); font-size: 0.8rem;
+  border: 1px solid transparent;
+}
+.chip-cat { background: var(--accent-soft); color: var(--accent); }
+a.chip:hover { text-decoration: none; filter: brightness(0.96); }
+.chip-btn { cursor: pointer; font: inherit; font-size: 0.85rem; padding: 5px 14px; }
+.chip-btn.is-active { background: var(--accent); color: #fff; }
+
+/* sections & grid */
+.cat-section { margin: 28px 0; }
+.cat-section h2 { font-size: 1.25rem; margin-bottom: 4px; }
+.cat-section h2 a { color: var(--fg); }
+.count { color: var(--muted); font-weight: 400; font-size: 0.85rem; }
+.section-desc { color: var(--muted); font-size: 0.92rem; margin-top: 0; }
+.grid {
+  display: grid; gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.card {
+  background: var(--card-bg); border: 1px solid var(--border);
+  border-radius: 12px; padding: 16px 18px;
+  display: flex; flex-direction: column; gap: 6px;
+}
+.card h3 { margin: 0; font-size: 1.08rem; }
+.card h3 a { color: var(--fg); }
+.card h3 a:hover { color: var(--accent); }
+.card-title { margin: 0; color: var(--accent); font-size: 0.85rem; }
+.card-bio {
+  margin: 0; color: var(--muted); font-size: 0.9rem;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.card-meta { margin: 4px 0 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.empty { color: var(--muted); padding: 40px 0; text-align: center; }
+
+/* profile */
+.breadcrumb { margin: 24px 0 0; color: var(--muted); font-size: 0.88rem; }
+.profile { padding: 12px 0 8px; max-width: 720px; }
+.profile h1 { font-size: 1.7rem; margin-bottom: 4px; }
+.alias { color: var(--muted); font-size: 0.88rem; margin: 0; }
+.profile-title { color: var(--accent); margin: 6px 0 14px; }
+.profile-bio { font-size: 1.02rem; }
+.profile h2 { font-size: 1.05rem; margin: 26px 0 8px; }
+.plat-list { list-style: none; padding: 0; margin: 0; }
+.plat-list li { padding: 7px 0; border-bottom: 1px dashed var(--border); }
+.plat-name {
+  display: inline-block; min-width: 7.5em; color: var(--muted); font-size: 0.9rem;
+}
+.highlights { padding-left: 1.2em; margin: 0; }
+.profile-meta { color: var(--muted); font-size: 0.85rem; margin-top: 26px; }
+.related { margin: 36px 0; }
+.related h2 { font-size: 1.15rem; }
+
+/* prose (about) */
+.prose { max-width: 720px; padding: 24px 0; }
+.prose h1 { font-size: 1.6rem; }
+.prose h2 { font-size: 1.15rem; margin-top: 30px; }
+
+/* footer */
+.site-footer {
+  border-top: 1px solid var(--border); margin-top: 48px;
+  padding: 22px 0 30px; color: var(--muted); font-size: 0.85rem;
+}
+.site-footer p { margin: 6px 0; }
+
+@media (max-width: 600px) {
+  .hero h1 { font-size: 1.5rem; }
+  .grid { grid-template-columns: 1fr; }
+}
